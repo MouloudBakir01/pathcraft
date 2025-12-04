@@ -1,0 +1,47 @@
+/* Thème clair (défaut) */
+body {
+  background: #ffffff;
+  color: #1a1a1a;
+  transition: background 0.4s, color 0.4s;
+}
+
+/* Thème sombre stylé */
+.dark body {
+  background: #0d0d0f; /* noir profond mais doux */
+  color: #f3f3f3;
+}
+
+/* Cartes / sections */
+.dark .project-card,
+.dark .about-container,
+.dark .contact-form,
+.dark .modal-content {
+  background: #1a1a1d !important;
+  color: white !important;
+  box-shadow: 0 0 20px rgba(255,255,255,0.05) !important;
+}
+
+/* Textes secondaires */
+.dark p,
+.dark h1,
+.dark h2,
+.dark span {
+  color: #f0f0f0 !important;
+}
+
+/* Inputs contact */
+.dark input,
+.dark textarea {
+  background: #101014;
+  color: white;
+  border: 1px solid #3b3b3b;
+}
+
+/* Boutons */
+.dark button,
+.dark .home-btn,
+.dark .cv-btn,
+.dark .modal-links a {
+  background: #ff385c !important;
+  color: white !important;
+}

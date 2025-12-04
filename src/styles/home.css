@@ -1,0 +1,92 @@
+.home-page {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  max-width: 900px;
+  text-align: center;
+}
+
+/* Photo */
+.intro-photo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.profile-img {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ff385c;
+}
+
+/* Texte */
+.intro-content h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.intro-content p {
+  line-height: 1.6;
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Boutons */
+.home-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.home-btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  background-color: #ff385c;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.home-btn:hover {
+  background-color: #ff5775;
+}
+
+/* Bouton CV */
+.cv-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 22px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cv-btn:hover {
+  background-color: #333;
+}
+
+/* 🌙 DARK MODE */
+.dark .profile-img {
+  border-color: #ff5577;
+}
+
+.dark .home-btn {
+  background-color: #ff385c;
+}
+
+.dark .cv-btn {
+  background: white;
+  color: black;
+}
