@@ -9,7 +9,7 @@ export default function Portfolio() {
       title: "Contact - CRM",
       description: "CRM  réalisé avec Angular permettant de gérer une base locale de contact",
       image: "/angular.png",
-      link: "https://tonsite.com/projet1",
+      link: "https://mouloudbakir01.github.io/contact-crm/",
       code: "https://github.com/MouloudBakir01/contact-crm"
     },
     {
@@ -25,7 +25,7 @@ export default function Portfolio() {
       title: "To-do-Manager",
       description: "projet étudiant, To do list effectuée avec Vue.js",
       image: "/vue.png",
-      link: "https://tonsite.com/projet3",
+      link: "https://mouloudbakir01.github.io/To-Do-Manager/",
       code: "https://github.com/MouloudBakir01/To-Do-Manager"
     },
   ];

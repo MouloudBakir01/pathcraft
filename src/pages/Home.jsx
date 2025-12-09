@@ -39,6 +39,16 @@ export default function Home() {
             <div className="home-links">
               <Link to="/about" className="home-btn">À propos</Link>
               <Link to="/portfolio" className="home-btn">Portfolio</Link>
+
+              
+              <a
+                href="https://github.com/MouloudBakir01"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="github-btn"
+              >
+                🐙 GitHub
+              </a>
             </div>
 
             <a
