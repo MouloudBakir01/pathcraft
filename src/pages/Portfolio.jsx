@@ -17,7 +17,7 @@ export default function Portfolio() {
       title: "Site d'échange - Newsletter",
       description: "Site d'échanges (expériences, apprentissages) entres étudiants et jeunes professionels: mini blog réalisé avec react JS et typescript ",
       image: "/react1.png",
-      link: "https://tonsite.com/projet2",
+      link: "https://blog-manager-l6f4.onrender.com/",
       code: "https://github.com/MouloudBakir01/blog-manager"
     },
     {
