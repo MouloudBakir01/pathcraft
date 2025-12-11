@@ -16,7 +16,7 @@ export default function About() {
 
         <div className="about-container">
           <div className="about-photo">
-            <img src="/mouloud.png" alt="Ma photo" />
+            <img src="/PhotoPro.png" alt="Ma photo" />
           </div>
 
           <div className="about-text">
