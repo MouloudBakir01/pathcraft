@@ -12,7 +12,7 @@ export default function Home() {
 
           {/* Photo en haut */}
           <div className="intro-photo">
-            <img src="/mouloud.png" alt="Ma photo" className="profile-img" />
+            <img src="/PhotoPro.png" alt="Ma photo" className="profile-img" />
           </div>
 
           {/* Texte et boutons */}
