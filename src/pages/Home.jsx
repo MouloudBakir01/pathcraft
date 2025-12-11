@@ -52,7 +52,7 @@ export default function Home() {
             </div>
 
             <a
-              href="/Cv - pro.pdf"
+              href="/Cv-pro.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="cv-btn"
